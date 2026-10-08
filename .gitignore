@@ -23,8 +23,9 @@ env/
 *.swp
 *.swo
 
+# Failed exploratory RAGAS run (the final report and retry log are submitted)
+evidence/03_ragas_run_log.txt
+tmp/
+
 # macOS
 .DS_Store
-
-# Lab outputs (không commit, chỉ nộp evidence/)
-data/ragas_report.json
